@@ -12,7 +12,7 @@
 <body>
   <header class="header-page">
     <nav class="header-nav">
-      <a href="index.html" class="header-basic-logo">
+      <a href="/" class="header-basic-logo">
         <img src="img/logo.png" alt="" class="logo-main">
         <div class="logo-content">
           <h2 class="logo-title">Херсонская Екатерина Борисовна</h2>
@@ -22,7 +22,7 @@
       <div class="header-menu">
         <ul class="nav-page">
           <li class="nav-item">
-            <a href="" class="nav-link">Обо мне</a>
+            <a href="about.html" class="nav-link">Обо мне</a>
           </li>
           <li class="nav-item">
             <a href="" class="nav-link">Услуги и цены</a>
@@ -35,7 +35,7 @@
           </li>
         </ul>
         <div class="callback-content">
-          <p class="header-nav-text">Я на связи 24/7 в Телеграмм, по телефону, по СМС, в МАХ – пишите и звоните, решим любой ВАШ вопрос!</p>
+          <p class="header-nav-text">Я на связи 24/7 в <a href="">Телеграмм</a>, по <a href="">телефону</a>, по <a href="">СМС</a>, в <a href="">МАХ</a> – пишите и звоните, решим любой ВАШ вопрос!</p>
           <ul class="header-social">
             <li class="social-item">
               <a href="" class="social-link">
@@ -103,55 +103,58 @@
 
 
   <main class="main-page">
-    <section class="section-hero">
-      <div class="empty-box"></div>
-      <img class="hero-img" src="img/inner-img.png" alt="">
-      <div class="hero-content">
-        <h1 class="page-title">
-          <span>Сдел</span>ано с
-          <br>
-          <span>Херс</span>онской!
-        </h1>
-        <ul class="author-info">
-          <li class="author-item">
-            <h2 class="author-item-title">30+</h2>
-            <p class="author-item-text">лет стажа</p>
-          </li>
-          <li class="author-item">
-            <h2 class="author-item-title">5110+</h2>
-            <p class="author-item-text">принято родов</p>
-          </li>
-          <li class="author-item">
-            <h2 class="author-item-title">115000+</h2>
-            <p class="author-item-text">подписчиков</p>
-          </li>
-        </ul>
-      </div>
-      <div class="swiper swiper-hero">
-        <ul class="swiper-wrapper">
-          <li class="swiper-slide">
-            <img src="img/inner-slide1.png" alt="">
-          </li>
-          <li class="swiper-slide">
-            <img src="img/inner-slide2.png" alt="">
-          </li>
-          <li class="swiper-slide">
-            <img src="img/inner-slide3.png" alt="">
-          </li>
-          <li class="swiper-slide">
-            <img src="img/inner-slide4.png" alt="">
-          </li>
-          <li class="swiper-slide">
-            <img src="img/inner-slide5.png" alt="">
-          </li>
-          <li class="swiper-slide">
-            <img src="img/inner-slide6.png" alt="">
-          </li>
-          <li class="swiper-slide">
-            <img src="img/inner-slide7.png" alt="">
-          </li>
-        </ul>
-      </div>
+    <section class="main-banner">
+      <section class="section-hero">
+        <div class="empty-box"></div>
+        <img class="hero-img" src="img/inner-img.png" alt="">
+        <div class="hero-content">
+          <h1 class="page-title">Сделано с Херсонской!</h1>
+          <h1 class="page-title-mobil">
+            <span class="color-span">Сдел</span>ано
+            <br>
+            <span>с Хер</span>сонской!
+          </h1>
+          <ul class="author-info">
+            <li class="author-item">
+              <h2 class="author-item-title">30+</h2>
+              <p class="author-item-text">лет стажа</p>
+            </li>
+            <li class="author-item">
+              <h2 class="author-item-title">5110+</h2>
+              <p class="author-item-text">принято родов</p>
+            </li>
+            <li class="author-item">
+              <h2 class="author-item-title">115000+</h2>
+              <p class="author-item-text">подписчиков</p>
+            </li>
+          </ul>
+        </div>
+        <div class="swiper swiper-hero">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <img src="img/inner-slide1.png" alt="">
+            </li>
+            <li class="swiper-slide">
+              <img src="img/inner-slide2.png" alt="">
+            </li>
+            <li class="swiper-slide">
+              <img src="img/inner-slide3.png" alt="">
+            </li>
+            <li class="swiper-slide">
+              <img src="img/inner-slide4.png" alt="">
+            </li>
+            <li class="swiper-slide">
+              <img src="img/inner-slide5.png" alt="">
+            </li>
+            <li class="swiper-slide">
+              <img src="img/inner-slide6.png" alt="">
+            </li>
+            <li class="swiper-slide">
+              <img src="img/inner-slide7.png" alt="">
+            </li>
+          </ul>
+        </div>
+      </section>
     </section>
 
     <section class="section-slider slider-dark slider-no-subtitle">
@@ -216,12 +219,14 @@
 
     <section class="section-about-author container">
       <div class="about-author-content">
-        <div class="about-author-photo" style="background-image: url('img/author-img.webp');">
+        <div class="about-author-photo" style="background-image: url('img/author-img.webp'), radial-gradient(50% 50% at 50% 50%, #F8F9FA 0%, #DEE2E6 100%);">
           <a href="#" class="btn-about">Подробнее о докторе</a>
         </div>
         <div class="about-author-content-info">
           <p class="section-subtitle">Обо мне</p>
-          <h2 class="section-title">Херсонская Екатерина Борисовна</h2>
+          <h2 class="section-title">Херсонская
+            <br>Екатерина Борисовна
+          </h2>
           <p class="section-text">Врач акушер-гинеколог</p>
           <p class="section-text">КМН и отличник здравоохранения</p>
           <p class="section-text">Создатель двух брендов: «доктор Херсонская» и клиника «Доктор Мир», учредитель, гендиректор, главврач, врач акушер-гинеколог</p>
@@ -259,7 +264,9 @@
         <div class="subtitle-content ">
           <p class="subtitle-content-text subtitle-italic">«Люблю черный, живу в белом.» <span>Е.Б. Херсонская</span>
           </p>
-          <p class="subtitle-content-text subtitle-top">Больше меня в моем Instagram <span>(запрещен на территории РФ)</span> и Телеграмм</p>
+          <p class="subtitle-content-text subtitle-top">Больше меня в моем <a href="">Instagram</a>
+            <span>(запрещен на территории РФ)</span> и <a href="">Телеграмм</a>
+          </p>
         </div>
         <div class="swiper-container slider-page swiper-photo swiper-third">
           <ul class="swiper-wrapper">
@@ -298,7 +305,9 @@
             </button>
           </div>
         </div>
-        <p class="subtitle-content-text subtitle-bottom">Больше меня в моем Instagram <span>(запрещен на территории РФ)</span> и Телеграмм</p>
+        <p class="subtitle-content-text subtitle-bottom">Больше меня в моем <a href="">Instagram</a>
+          <span>(запрещен на территории РФ)</span> и <a href="">Телеграмм</a>
+        </p>
       </div>
     </section>
 
@@ -316,7 +325,7 @@
               <a href="#">Подробнее</a>
             </div>
           </div>
-          <div class="allocation-item allocation-biggest">
+          <div class="allocation-item allocation-biggest allocation-left">
             <img src="img/service1.webp" alt="">
             <div class="allocation-info">
               <h3>Бесплодие</h3>
@@ -348,7 +357,7 @@
               <a href="#">Подробнее</a>
             </div>
           </div>
-          <div class="allocation-item allocation-biggest">
+          <div class="allocation-item allocation-biggest allocation-left">
             <img src="img/service3.webp" alt="">
             <div class="allocation-info">
               <h3>Кесарево сечение</h3>
@@ -380,7 +389,7 @@
               <a href="#">Подробнее</a>
             </div>
           </div>
-          <div class="allocation-item allocation-biggest">
+          <div class="allocation-item allocation-biggest allocation-left">
             <img src="img/service5.webp" alt="">
             <div class="allocation-info">
               <h3>Для дам 50+</h3>
@@ -406,7 +415,9 @@
             <br>
             <span>Е.Б. Херсонская</span>
           </p>
-          <p class="subtitle-content-text subtitle-top">Больше меня в моем Instagram <span>(запрещен на территории РФ)</span> и Телеграмм</p>
+          <p class="subtitle-content-text subtitle-top">Больше меня в моем <a href="">Instagram</a>
+            <span>(запрещен на территории РФ)</span> и <a href="">Телеграмм</a>
+          </p>
         </div>
         <div class="swiper-container slider-page reels-reviews swiper-third">
           <ul class="swiper-wrapper">
@@ -445,14 +456,18 @@
             </button>
           </div>
         </div>
-        <p class="subtitle-content-text subtitle-bottom">Больше меня в моем Instagram <span>(запрещен на территории РФ)</span> и Телеграмм</p>
+        <p class="subtitle-content-text subtitle-bottom">Больше меня в моем <a href="">Instagram</a>
+          <span>(запрещен на территории РФ)</span> и <a href="">Телеграмм</a>
+        </p>
       </div>
     </section>
 
     <section class="section-about-cliniks container">
       <div class="about-author-content-info">
         <p class="section-subtitle">О клинике</p>
-        <h2 class="section-title">Клиника доктора Херсонской «Доктор Мир»</h2>
+        <h2 class="section-title">Клиника доктора
+          <br>Херсонской «Доктор Мир»
+        </h2>
         <p class="section-text">У нас работают 55 специалистов, в числе которых кандидаты медицинских наук, доктора медицинских наук, врачи высшей категории, заслуженные врачи РФ, с общим стажем более 15 лет работы в медицине!</p>
         <a href="https://doctormir.ru/" class="btn btn-dark btn-all" style="max-width: 230px;">Подробнее о клинике</a>
       </div>
@@ -496,7 +511,7 @@
               <a href="#">Подробнее</a>
             </div>
           </div>
-          <div class="allocation-item allocation-biggest">
+          <div class="allocation-item allocation-biggest allocation-left">
             <img src="img/top-service1.webp" alt="">
             <div class="allocation-info">
               <h3>Акушерство</h3>
@@ -528,7 +543,7 @@
               <a href="#">Подробнее</a>
             </div>
           </div>
-          <div class="allocation-item allocation-biggest">
+          <div class="allocation-item allocation-biggest allocation-left">
             <img src="img/top-service3.webp" alt="">
             <div class="allocation-info">
               <h3>Анализы</h3>
@@ -560,7 +575,7 @@
               <a href="#">Подробнее</a>
             </div>
           </div>
-          <div class="allocation-item allocation-biggest">
+          <div class="allocation-item allocation-biggest allocation-left">
             <img src="img/top-service5.webp" alt="">
             <div class="allocation-info">
               <h3>Педиатрия</h3>
@@ -573,6 +588,46 @@
           </a>
         </div>
         <a href="#" class="btn-all btn-dark btn">Прайс-лист</a>
+      </div>
+    </section>
+
+    <section class="section-slider slider-dark ">
+
+      <div class="slider-content container">
+        <h2 class="section-title" style="text-align: center;">Наши достижения</h2>
+        <div class="swiper-container slider-page swiper-achievements swiper-five">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide" style="background-image: url('../img/achievements.webp');">
+              <p class="achievements-text">Мы много миллионов раз слышали: «Спасибо, доктор!»</p>
+            </li>
+            <li class="swiper-slide" style="background-image: url('../img/achievements2.webp');">
+              <p class="achievements-text">У нас более 33 500 посещений в год!</p>
+            </li>
+            <li class="swiper-slide" style="background-image: url('../img/achievements3.webp');">
+              <p class="achievements-text">Мы помогли забеременеть >7 000 парам!</p>
+            </li>
+            <li class="swiper-slide" style="background-image: url('../img/achievements4.webp');">
+              <p class="achievements-text">&gt;12 000 операций мы выполнили в нашем стационаре одного дня!</p>
+            </li>
+            <li class="swiper-slide" style="background-image: url('../img/achievements2.webp');">
+              <p class="achievements-text">У нас более 33 500 посещений в год!</p>
+            </li>
+
+          </ul>
+          <div class="swiper-navigation">
+            <button class="slider-button slider-button-prev btn-dark">
+              <svg>
+                <use xlink:href="sprite/sprite.svg#arrow-site"></use>
+              </svg>
+            </button>
+            <button class="slider-button slider-button-next btn-light">
+              <svg>
+                <use xlink:href="sprite/sprite.svg#arrow-site"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+
       </div>
     </section>
 
@@ -607,7 +662,7 @@
 
       <div class="slider-content container">
         <h2 class="section-title" style="text-align: center;">Акушерские истории</h2>
-        <div class="swiper-container slider-page swiper-history swiper-five">
+        <div class="swiper-container slider-page swiper-history swiper-third">
           <ul class="swiper-wrapper">
             <li class="swiper-slide" style="background-color: #69bc8b;">
 
@@ -738,9 +793,7 @@
               <p class="logo-text">Врач акушер-гинеколог</p>
             </div>
           </a>
-          <p class="header-nav-text">
-            Я на связи 24/7 в Телеграмм, по телефону, по СМС, в МАХ – пишите и звоните, решим любой ВАШ вопрос!
-          </p>
+          <p class="header-nav-text">Я на связи 24/7 в <a href="">Телеграмм</a>, по <a href="">телефону</a>, по <a href="">СМС</a>, в <a href="">МАХ</a> – пишите и звоните, решим любой ВАШ вопрос!</p>
           <button class="callback btn-dark">
             <svg>
               <use xlink:href="sprite/sprite.svg#calendar"></use>
@@ -753,16 +806,16 @@
             <h2>Навигация</h2>
             <ul class="footer-nav">
               <li>
-                <a href="#">Главная</a>
+                <a href="index.html">Главная</a>
               </li>
               <li>
-                <a href="blog.html">Обо мне</a>
+                <a href="about.html">Обо мне</a>
               </li>
               <li>
                 <a href="#">Услуги и цены</a>
               </li>
               <li>
-                <a href="#">Статьи и новости</a>
+                <a href="blog.html">Статьи и новости</a>
               </li>
               <li>
                 <a href="contacts.html">Контакты</a>
