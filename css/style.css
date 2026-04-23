@@ -50,7 +50,7 @@ body {
 }
 
 p {
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 400;
   font-style: normal;
   line-height: 125%;
@@ -98,7 +98,8 @@ img {
 }
 
 .blog-page,
-.post-page {
+.post-page,
+.price-page {
   padding-top: 50px;
   background-color: #F2F3F4;
 }
@@ -113,7 +114,7 @@ img {
 .section-title {
   color: #212121;
   font-size: min(31px + 13 * (100vw - 320px) / 1100);
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 700;
   font-style: normal;
   line-height: 125%;
@@ -124,7 +125,7 @@ img {
 
 .section-subtitle {
   font-size: 13px;
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 125%;
@@ -134,7 +135,7 @@ img {
 
 .section-suptitle {
   font-size: 20px;
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 125%;
@@ -143,7 +144,7 @@ img {
 }
 
 .section-text {
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 125%;
@@ -193,7 +194,7 @@ img {
 
 .logo-title {
   margin: 0;
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 125%;
@@ -203,7 +204,7 @@ img {
 
 .logo-text {
   margin: 0;
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 125%;
@@ -235,7 +236,7 @@ img {
 }
 
 .nav-link {
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 125%;
@@ -245,7 +246,7 @@ img {
 }
 
 .header-nav-text {
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 125%;
@@ -475,7 +476,7 @@ img {
     text-align-last: left;
     font-size: 32px;
     line-height: 1;
-    font-family: "InterTight-Regular", "Arial", sans-serif;
+    font-family: "InterTight", "Arial", sans-serif;
     font-weight: 700;
     font-style: normal;
     line-height: 125%;
@@ -559,7 +560,7 @@ img {
 }
 .nav-footer-content h2 {
   margin: 0;
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 125%;
@@ -575,7 +576,7 @@ img {
 .footer-nav a {
   color: #ffffff;
   text-decoration: none;
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 125%;
@@ -600,7 +601,7 @@ img {
 .footer-copyright a {
   color: #ffffff;
   text-decoration: none;
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 125%;
@@ -674,7 +675,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 125%;
@@ -743,7 +744,7 @@ img {
   bottom: -80px;
   right: -80px;
   font-size: 16px;
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 125%;
@@ -950,7 +951,7 @@ img {
 .page-title,
 .page-title-mobil {
   margin: auto;
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 700;
   font-style: normal;
   line-height: 125%;
@@ -988,7 +989,7 @@ img {
 }
 
 .author-item-title {
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 700;
   font-style: normal;
   line-height: 125%;
@@ -1194,7 +1195,7 @@ img {
   }
 }
 .section-slider {
-  padding: 80px 0 120px;
+  padding: 80px 0 80px;
 }
 
 .slider-dark {
@@ -1216,7 +1217,7 @@ img {
 .subtitle-content-text {
   color: #ffffff;
   font-size: 20px;
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 125%;
@@ -1369,7 +1370,7 @@ img {
   display: inline-block;
   color: #ffffff;
   font-size: 20px;
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 125%;
@@ -1412,7 +1413,7 @@ img {
 .swiper-history .swiper-history-text {
   text-transform: uppercase;
   text-align: center;
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 700;
   font-style: normal;
   line-height: 125%;
@@ -1564,7 +1565,7 @@ img {
 }
 
 .section-basic-text {
-  font-family: "InterTight-Italic", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 700;
   font-style: italic;
   line-height: 125%;
@@ -1605,7 +1606,7 @@ img {
   text-decoration: none;
   max-width: 230px;
   font-size: 16px;
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 125%;
@@ -1683,17 +1684,12 @@ img {
   .section-basic-text {
     font-size: 18px;
   }
-  .about-page .about-author-content-info .section-text {
-    font-size: 15px;
-    margin-left: 300px;
+  .about-page .about-author-content {
+    grid-template-columns: 270px 1fr;
   }
   .about-page .about-author-photo {
-    position: absolute;
-    left: 0;
-    z-index: 2;
     height: 340px;
     width: 270px;
-    top: 140px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1720,17 +1716,12 @@ img {
     align-items: flex-start;
     margin-top: 40px;
   }
-  .about-page .about-author-content-info .section-text {
-    font-size: 16px;
-    margin-left: 0;
+  .about-page .about-author-content {
+    grid-template-columns: 1fr;
   }
   .about-page .about-author-photo {
-    position: sticky;
-    left: auto;
-    z-index: 2;
     height: 700px;
     width: 100%;
-    top: auto;
     background-position: 70% 30% !important;
     border-radius: 0;
   }
@@ -1774,14 +1765,21 @@ img {
   }
 }
 .section-form {
+  background: radial-gradient(50% 50% at 50% 50%, #F8F9FA 0%, #DEE2E6 100%);
+}
+.section-form .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.section-form-inner {
+  padding-left: 110px;
   padding-top: 175px;
   padding-bottom: 275px;
-  padding-left: 360px;
-  padding-right: 350px;
-  background: url("../img/form-author.webp"), radial-gradient(50% 50% at 50% 50%, #F8F9FA 0%, #DEE2E6 100%);
+  background: url("../img/form-author.webp");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: 1110px 30px, 100%;
+  background-position: 860px 30px;
 }
 
 .form-page {
@@ -1799,7 +1797,7 @@ img {
   gap: 12px;
 }
 .form-field span {
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 125%;
@@ -1819,7 +1817,7 @@ img {
 
 .form-field-checkbox {
   font-size: 13px;
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 125%;
@@ -1838,17 +1836,11 @@ img {
   margin-right: 0;
 }
 
-@media screen and (max-width: 1420px) {
-  .section-form {
-    padding-left: 190px;
-    padding-right: 190px;
-    background-position: 930px 30px, 100%;
-  }
-}
 @media screen and (max-width: 1310px) {
-  .section-form {
-    padding: 200px 150px 200px;
-    background-position: 680px 30px, 100%;
+  .section-form-inner {
+    padding-top: 120px;
+    padding-bottom: 150px;
+    background-position: 650px 30px;
   }
   .form-page {
     grid-template-columns: 1fr;
@@ -1860,19 +1852,24 @@ img {
   }
 }
 @media screen and (max-width: 992px) {
-  .section-form {
-    padding: 100px 50px 100px;
-    background-position: 550px 30px, 100%;
+  .section-form-inner {
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-bottom: 120px;
+    background-position: 530px 30px;
   }
 }
 @media screen and (max-width: 768px) {
-  .section-form {
-    padding: 60px 10px 30px;
-    background-position: 95%;
+  .section-form .section-form-inner {
+    padding-top: 60px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    background-position: 100% 50px;
   }
   .section-form .section-title {
-    margin-bottom: 200px;
-    max-width: 400px;
+    margin-bottom: 250px;
+    max-width: 260px;
+    font-size: 30px;
   }
   .form-field-checkbox {
     max-width: 215px;
@@ -1881,10 +1878,6 @@ img {
   }
 }
 @media screen and (max-width: 480px) {
-  .section-form {
-    padding: 60px 0 30px;
-    background-position: 105% 60px, 100%;
-  }
   .section-form .section-title {
     font-size: 30px;
     margin-bottom: 270px;
@@ -1897,13 +1890,13 @@ img {
   }
 }
 @media screen and (max-width: 400px) {
-  .section-form {
-    background-position: 110% 100%, 100%;
-    background-size: 250px, 100%;
+  .section-form .section-form-inner {
+    background-position: 105% 100%;
+    background-size: 220px;
   }
   .section-form .section-title {
     font-size: 28px;
-    margin-bottom: 240px;
+    margin-bottom: 200px;
   }
 }
 .section-about-cliniks {
@@ -2040,7 +2033,7 @@ img {
   background: #ffffff;
 }
 .allocation-info h3 {
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 700;
   font-style: normal;
   line-height: 125%;
@@ -2049,7 +2042,7 @@ img {
   margin: 0 0 20px;
 }
 .allocation-info p {
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 125%;
@@ -2069,7 +2062,7 @@ img {
   max-width: 130px;
   margin-top: auto;
   transition: all 0.4s ease-in-out;
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 125%;
@@ -2116,7 +2109,7 @@ img {
   border-radius: 12px;
   height: 300px;
   font-size: 16px;
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 125%;
@@ -2213,16 +2206,22 @@ img {
     height: 150px;
   }
 }
+.main-banner-about {
+  background: url("../../img/bg-mobil.webp"), url("../../img/bg-mobil.webp"), #F2F3F4;
+  background-repeat: no-repeat;
+  background-position: 100% 100%, 100% 100%, 100%;
+  background-size: 22% 100%, 20% 100%, 100%;
+}
+
 .section-hero-about {
-  background: radial-gradient(50% 50% at 50% 50%, #F8F9FA 0%, #DEE2E6 100%);
+  max-width: 1920px;
+  margin: 0 auto;
   position: relative;
-  padding-bottom: 20px;
-  height: 100vh;
+  height: 950px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 0 50%;
   display: flex;
-  flex-direction: column;
   overflow: hidden;
   min-height: -webkit-fill-available;
 }
@@ -2232,16 +2231,25 @@ img {
 .section-hero-about .hero-img {
   left: auto;
   right: 0;
-  max-width: 600px;
+  max-width: 660px;
+  object-fit: contain;
+  object-position: bottom;
 }
 .section-hero-about .hero-content {
+  width: 100%;
   margin: 0;
   align-items: flex-start;
   height: 100%;
 }
+.section-hero-about .hero-content-about {
+  width: 100%;
+}
 .section-hero-about .page-title {
   text-align: left;
   margin: 0 0 20px;
+  display: inline-block;
+  mix-blend-mode: exclusion;
+  color: black;
 }
 .section-hero-about .section-suptitle {
   margin-bottom: 10px;
@@ -2259,6 +2267,9 @@ img {
 .section-hero-about .author-item {
   width: 100%;
 }
+.section-hero-about .about-sign-content {
+  width: 100%;
+}
 
 @supports (-webkit-touch-callout: none) {
   .section-hero-about {
@@ -2271,7 +2282,7 @@ img {
 }
 
 .hero-about-subtitle {
-  font-family: "InterTight-Italic", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 400;
   font-style: italic;
   line-height: 125%;
@@ -2290,6 +2301,10 @@ img {
 }
 
 @media screen and (max-width: 1310px) {
+  .main-banner-about {
+    background-position: 100% 100%, 100% 100%, 100%;
+    background-size: 33% 100%, 25% 100%, 100%;
+  }
   .section-hero-about .page-title {
     font-size: 55px;
   }
@@ -2305,11 +2320,9 @@ img {
   }
 }
 @media screen and (max-width: 992px) {
-  .section-hero-about {
-    background: url("../img/bg-mobil.webp"), radial-gradient(50% 50% at 50% 50%, #F8F9FA 0%, #DEE2E6 100%);
-    background-repeat: no-repeat;
-    background-position: 100% 50%;
-    background-size: 271px 100%, 100% 100%;
+  .main-banner-about {
+    background-position: 100% 100%, 100% 0, 100%;
+    background-size: 10% 100%, 30% 50%, 100%;
   }
   .section-hero-about .hero-content {
     padding-left: 0;
@@ -2334,29 +2347,25 @@ img {
 }
 @media screen and (max-width: 768px) {
   .section-hero-about {
-    background: url("../img/bg-mobil.webp"), radial-gradient(50% 50% at 50% 50%, #F8F9FA 0%, #DEE2E6 100%);
-    background-repeat: no-repeat;
-    background-position: 100% 50%;
-    background-size: 175px 100%, 100% 100%;
-    padding-bottom: 10px;
+    height: 900px;
   }
   .section-hero-about .author-info {
     grid-template-columns: repeat(2, 1fr);
   }
   .section-hero-about .hero-img {
-    right: -45px;
-    max-width: 330px;
-    object-position: 0 60%;
+    right: -60px;
+    object-position: 0 50%;
   }
   .section-hero-about .subtitle-content-text {
     max-width: 250px;
   }
-  .section-hero-about .page-title {
-    font-size: 32px;
+  .section-hero-about .about-sign-content {
+    height: 100%;
+    justify-content: space-between;
   }
   .hero-content-about {
     width: 100%;
-    margin: 25px 0 0;
+    margin: 25px 0 20px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -2370,27 +2379,30 @@ img {
     font-size: 13px;
     max-width: 180px;
   }
+  .section-hero-about .hero-img {
+    max-width: 400px;
+  }
   .hero-content-about {
-    margin-bottom: 20px;
     max-width: 285px;
   }
   .about-sign-content {
     justify-content: space-between;
-    height: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 480px) {
   .section-hero-about {
     background-size: 110px 100%, 100% 100%;
+    height: 1000px;
   }
   .section-hero-about .page-title {
     font-size: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
   .section-hero-about .author-info {
     grid-template-columns: 1fr;
     gap: 5px;
+    margin-top: auto;
   }
   .section-hero-about .author-item {
     gap: 5px;
@@ -2399,10 +2411,13 @@ img {
     font-size: 22px;
   }
   .section-hero-about .hero-img {
-    max-width: 240px;
+    max-width: 340px;
     -o-object-position: 0 15%;
-    object-position: 0 28%;
-    right: -38px;
+    object-position: 0 40%;
+    right: -50px;
+  }
+  .section-hero-about .hero-content-about {
+    max-width: 230px;
   }
 }
 .section-science {
@@ -2414,7 +2429,7 @@ img {
 }
 
 .science-title {
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 700;
   font-style: normal;
   line-height: 125%;
@@ -2424,7 +2439,7 @@ img {
 }
 
 .science-text {
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 125%;
@@ -2467,6 +2482,9 @@ img {
   .section-science {
     row-gap: 60px;
   }
+  .science-magazine {
+    justify-content: center;
+  }
   .science-magazine-item {
     width: 30%;
     height: 120px;
@@ -2495,6 +2513,56 @@ img {
     padding: 0 10px;
   }
 }
+.section-experience {
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-item {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 20px;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(33, 33, 33, 0.12);
+}
+.experience-item h3, .experience-item p {
+  margin: 0;
+  color: #212121;
+  font-size: 16px;
+}
+.experience-item h3 {
+  font-family: "InterTight", "Arial", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 125%;
+}
+.experience-item p {
+  font-family: "InterTight", "Arial", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 125%;
+}
+
+@media screen and (max-width: 992px) {
+  .section-experience {
+    padding-top: 50px;
+  }
+  .experience-item {
+    padding: 15px 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  .experience-item {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
 .section-news {
   padding-bottom: 40px;
 }
@@ -2516,12 +2584,24 @@ img {
   align-items: center;
   justify-content: center;
 }
-.blog-navigation-item .btn.active {
-  background-color: #212121;
+
+.tabs-btn {
+  border-radius: 12px;
+  transition: all 0.4s ease-in-out;
+}
+.tabs-btn .btn {
+  width: 100%;
+  background: #ffffff;
+  color: #212121;
+}
+.tabs-btn:hover .btn {
+  background: #212121;
   color: #ffffff;
 }
-.blog-navigation-item .btn:hover {
-  background-color: #212121;
+
+.tabs-btn.active .btn {
+  background: #212121;
+  color: #ffffff;
 }
 
 .blog-content {
@@ -2531,11 +2611,14 @@ img {
 }
 
 .blog-content-item {
+  align-items: center;
+}
+
+.tabs-panel {
   display: none;
 }
-.blog-content-item.active {
+.tabs-panel.active {
   display: flex;
-  align-items: center;
 }
 
 .news-list {
@@ -2553,7 +2636,7 @@ img {
 }
 .news-list-item a h3 {
   margin: 0;
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 125%;
@@ -2582,7 +2665,7 @@ img {
   padding: 6px 10px;
   background-color: #ffffff;
   border-radius: 8px;
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 125%;
@@ -2599,7 +2682,7 @@ img {
 .blog-pagination-btn {
   width: 48px;
   height: 48px;
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 125%;
@@ -2704,7 +2787,7 @@ img {
 
 .post-info-title {
   margin: 0;
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 700;
   font-style: normal;
   line-height: 125%;
@@ -2724,13 +2807,13 @@ img {
 .post-info-list h3 {
   margin: 0;
   font-size: 18px;
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 125%;
 }
 .post-info-list h3 {
-  font-family: "InterTight-Regular", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 700;
   font-style: normal;
   line-height: 125%;
@@ -2742,7 +2825,7 @@ img {
 }
 
 .post-info-attention {
-  font-family: "InterTight-Italic", "Arial", sans-serif;
+  font-family: "InterTight", "Arial", sans-serif;
   font-weight: 700;
   font-style: italic;
   line-height: 125%;
@@ -2818,6 +2901,137 @@ img {
   }
   .see-also .news-list-item img {
     height: 250px;
+  }
+}
+.section-price {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.section-price .section-title {
+  margin-bottom: 20px;
+}
+.section-price .section-subtitle {
+  font-size: 16px;
+  margin-bottom: 60px;
+}
+
+.price-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+.swiper-price {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  min-width: 0;
+  padding-bottom: 30px;
+  position: relative;
+}
+.swiper-price .swiper-scrollbar-drag {
+  background: #212121;
+}
+
+.price-nav {
+  gap: 0;
+  justify-content: space-between;
+}
+.price-nav .btn {
+  height: 70px;
+  padding: 0 5px;
+  font-size: 16px;
+}
+
+.price-content {
+  width: 100%;
+}
+
+.price-content-item {
+  flex-direction: column;
+}
+
+.price-content-item-title {
+  margin: 0;
+  text-align-last: left;
+  font-family: "InterTight", "Arial", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 125%;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.price-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.price-list li {
+  display: grid;
+  grid-template-columns: 1fr 100px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(33, 33, 33, 0.12);
+}
+
+.price-title {
+  margin: 0;
+  font-family: "InterTight", "Arial", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 125%;
+  font-size: 20px;
+}
+
+.price-number {
+  text-align: right;
+  margin: 0;
+  font-family: "InterTight", "Arial", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 125%;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .section-price {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  .section-price .section-subtitle {
+    font-size: 12px;
+    margin-bottom: 40px;
+  }
+  .price-inner {
+    gap: 40px;
+  }
+  .price-nav .btn {
+    font-size: 15px;
+  }
+  .price-content-item-title {
+    font-size: 24px;
+  }
+  .price-title,
+  .price-number {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .price-content-item-title {
+    font-size: 22px;
+  }
+  .price-list {
+    gap: 15px;
+  }
+  .price-list li {
+    grid-template-columns: 1fr 70px;
+    padding-bottom: 10px;
+  }
+  .price-title,
+  .price-number {
+    font-size: 14px;
   }
 }
 .section-contacts {

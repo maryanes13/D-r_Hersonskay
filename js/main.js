@@ -322,10 +322,10 @@ if(header) {
 
 }
 
-if(document.querySelector('.blog')) {
-  let blog = document.querySelector('.blog');
-  let blogBtns = blog.querySelectorAll('.blog-navigation-item button');
-  let blogPanel = blog.querySelectorAll('.blog-content-item');
+if(document.querySelector('.tabs-section')) {
+  let blog = document.querySelector('.tabs-section');
+  let blogBtns = blog.querySelectorAll('.tabs-btn');
+  let blogPanel = blog.querySelectorAll('.tabs-panel');
 
   blogBtns.forEach((btn, index) => {
     btn.addEventListener('click', () => {
@@ -345,6 +345,39 @@ if(document.querySelector('.blog')) {
 
     })
   })
+}
+
+if(document.querySelector('.swiper-price')) {
+  let swiperTabs = new Swiper(".swiper-price", {
+    slidesPerView: 2.1,
+    grabCursor: true,
+    watchOverflow: true,
+    spaceBetween: 20,
+    scrollbar: {
+          el: ".swiper-scrollbar",
+          hide: false,
+          draggable: true,
+        },
+    breakpoints: {
+      0: {
+        slidesPerView: 2.2,
+        spaceBetween: 10,
+      },
+      600: {
+        slidesPerView: 3.2,
+        spaceBetween: 10,
+      },
+      992: {
+        slidesPerView: 5.2,
+      },
+      1200: {
+        slidesPerView: 6.5,
+      },
+      1400: {
+        slidesPerView: 8,
+      },
+    },
+  });
 }
 
 });
